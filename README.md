@@ -1,24 +1,17 @@
-# Sistema de Controle de Estoque
+Descrição do Projeto
 
-Este projeto é um sistema de controle de estoque desenvolvido em **Python**, com foco em **facilidade de uso para empresas**, utilizando:
+Este projeto foi desenvolvido utilizando Python, com apoio da biblioteca Pandas para manipulação e organização dos dados, e interface gráfica construída com Tkinter.
 
-- **Pandas**: para manipulação eficiente de dados e tabelas de produtos.
-- **Tkinter**: interface gráfica amigável, simples de usar mesmo para usuários sem experiência em informática.
-- **Validações automáticas**: verifica entradas como quantidade de produtos, pontos críticos de estoque e materiais inválidos.
-- **Exportação para Excel**: relatórios de estoque podem ser gerados em `.xlsx` para controle administrativo e análises.
-- **Controle de usuários**: permite login de admin e usuário comum, com bloqueio após tentativas incorretas de senha.
-- **Funcionalidades**:
-  - Cadastro de produtos com nome, quantidade, preço e categoria.
-  - Controle de estoque com alerta para itens em falta ou estoque crítico.
-  - Carrinho de compras e registro de vendas para usuário comum.
-  - Interface visual simples e responsiva, pronta para uso empresarial.
-- **Foco em usabilidade**: menus claros, botões intuitivos e feedback visual para todas as operações.
+O sistema realiza o registro detalhado das manutenções de manufatura executadas na fábrica, alimentando automaticamente uma planilha com todas as informações coletadas. Cada manutenção é registrada linha por linha e unidade por unidade, garantindo rastreabilidade, organização e precisão nos dados.
 
-## Tecnologias
-- Python 3.x
-- Pandas
-- Tkinter
-- Openpyxl (para exportação Excel)
+A aplicação permite:
 
-## Objetivo
-Fornecer uma solução prática para pequenas e médias empresas gerenciarem seus estoques de forma eficiente, garantindo controle de produtos, validação de entradas e facilidade de exportação de dados para análise.
+Registro estruturado das manutenções realizadas
+
+Organização automatizada das informações em planilha
+
+Controle por linha e por unidade produtiva
+
+Geração de histórico consolidado das atividades
+
+Com a utilização do Pandas, o tratamento e armazenamento dos dados tornam-se eficientes e padronizados. Já a interface gráfica desenvolvida com Tkinter proporciona uma interação simples e intuitiva para o usuário final.
